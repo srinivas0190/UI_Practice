@@ -1,0 +1,15 @@
+fieldset {
+
+	background-color: #FFFF00;
+	box-shadow: #00FF00;
+	border: 5px solid #00FF00;
+}
+
+.frontLabelColor {
+
+	background-color: #b94646;
+}
+
+.backLabelColor {
+	background-color: #0000ff;
+}

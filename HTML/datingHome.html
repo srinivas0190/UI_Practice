@@ -1,0 +1,96 @@
+<html>
+	
+	<head>
+		<link rel="stylesheet" type="text/css" href="styleSheet.css">
+	</head>
+
+	<body>
+		<h1><b>Please Enter Your Details For Our Dating Website</b></h1>
+		<br>
+		<div id="formId">
+
+			<form action="" enctype="multipart/form-data" method="post">
+
+				<fieldset>
+					<legend>Your Face</legend>
+					<div id = "imgFileId">
+					<label for="imgFile">Your Image:</label>
+					<input type="file" name="imgFile" autofocus accept="image/gif, image/jpeg, image/png">
+					</div>
+					<br/><br/>
+					<div id = "imgPreviewId">
+					<label for="imgPreview">Image Preview:</label>
+					</div>
+					
+				</fieldset>
+				<br/><br/>
+				<fieldset>
+					<legend>Your General Details</legend>
+					<div id = "nameId">
+					<label for="name">Name:</label>
+					<input type="text" name="name" autofocus autocomplete="on">
+					</div>
+					<br/><br/>
+					<div id = "genderId">
+					<label for="gender">Gender:</label>
+					<input type = "radio" name="gender" value="Male" autofocus>Male
+					<input type = "radio" name="gender" value="FeMale" autofocus>Female <br/>
+					</div><br><br>
+
+					<div id = ageID>
+						<label for="age">Age:</label>
+						<input type = "number" name = "age" autofocus placeholder="above 18">
+					</div>
+					<br><br>
+
+					<div id = dobID>
+						<label for ="dob">Date Of Birth:</label>
+						<input type = "date" name="dob" autofocus>
+					</div> <br><br>
+
+					<div id = colorId>
+						<label for ="color">Color:</label>
+						<input type = "color" name= "color" autofocus>
+					</div> <br/><br/>
+
+					<div id = "countryId">
+					<label for="country">Which Country:</label>
+					<select>
+						<option value="AFG">Afghanistan</option>
+						<option value="ALA">Åland Islands</option>
+						<option value="ALB">Albania</option>
+						<option value="DZA">Algeria</option>
+						<option value="ASM">American Samoa</option>
+						<option value="AND">Andorra</option>
+						<option value="AGO">Angola</option>
+					</select>
+					</div><br><br>
+				</fieldset><br/><br/>
+
+				<fieldset>
+					<legend>Your Indicators</legend>
+
+					<div id = "heightId">
+						<label for ="height">Height: </label>
+						<label class= "frontLabelColor" for ="height">Short</label>
+						<input type="range" name="height" min="0" max="100" step="5">
+						<label class= "backLabelColor" for ="height">Tall</label>
+					</div>
+					<br/><br/>
+
+					<div id = "salaryId">
+						<label for ="salary">Salary: </label>
+						<label class= "frontLabelColor" for ="salary">Poor</label>
+						<input type="range" name="salary" min="10" max="100" step="10">
+						<label class= "backLabelColor" for ="salary">Rich</label>
+					</div>
+					<br/><br/>
+				</fieldset>
+				<br/>
+				<br/>
+
+				<input type="submit" value="submit">
+			</form>
+		</div>
+	</body>
+</html>
